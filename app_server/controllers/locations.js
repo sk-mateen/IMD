@@ -10,9 +10,15 @@ const homelist = (req, res) => {
     const addReview = (req, res) => {
     res.render('location-review-form', { title: 'Add review' });
     };
+    const about = (req, res) => {
+        res.render('generic-text', { title: 'About' });
+        };
+
+    
     /* get 'location-listpug ' page*/
     module.exports = {
         homelist,
         locationInfo,
-        addReview
+        addReview,
+        about
         };

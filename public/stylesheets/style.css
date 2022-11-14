@@ -6,16 +6,16 @@ legend {
  font-family: 'Lobster', fantasy;
 }
 .navbar {
- background-color: #ad1d28;
- border-color: #911821;
+ background-color: #d7e821;
+ border-color: #1e2222;
 }
 .navbar-light .navbar-brand {
  font-family: 'Lobster', fantasy;
- color: rgb(42, 3, 237);
+ color: rgb(33, 37, 29);
 }
 .navbar-light .navbar-toggler {
- color: white;
- border-color: white;
+ color: rgb(20, 18, 18);
+ border-color: rgb(20, 16, 16);
 }
 .navbar-light .navbar-toggler-icon {
  background-image: url("data:image/svgxml;charset=utf8,%3Csvg viewBox='0 0 30 30'xmlns='http://www.w3.org/2000/svg'%3E %3Cpath stroke='white' stroke-width='2'stroke-linecap='round'stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
@@ -23,24 +23,24 @@ legend {
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
- color: white;
+ color: rgb(31, 25, 25);
 }
 .card {
- background-color: #469ea8;
+ background-color: #afc92b;
  padding: 1rem;
 }
 .card-primary {
- border-color: #a2ced3;
+ border-color: #1de8fe;
  margin-bottom: 0.5rem;
 }
 .banner {
  margin-top: 4em;
- border-bottom: 1px solid #469ea8;
+ border-bottom: 1px solid #070909;
  margin-bottom: 1.5em;
  padding-bottom: 0.5em;
 }
 .review-header {
- background-color: #31727a;
+ background-color: #242321;
  padding-top: 0.5em;
  padding-bottom: 0.5em;
  margin-bottom: 0.5em;
@@ -51,8 +51,8 @@ legend {
  margin-bottom: 0.5em;
 }
 .badge-default, .btn-primary {
- background-color: #ad1d28;
- border-color: #911821;
+ background-color: #1c1f11;
+ border-color: #18912e;
 }
 h4 a, h4 a:hover {
  color: #fff;
@@ -75,13 +75,13 @@ h4 small {
   margin-bottom: 0.65rem;
  }
  a {
-  color: rgba(255, 255, 255, 0.8)
+  color: rgba(213, 35, 35, 0.8)
  }
  a:hover {
   color:#fff
  }
  body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: rgb(9, 8, 5);
-  background-color: #00bbff;
+  color: rgb(36, 159, 203);
+  background-color: #de6a27;
  }
