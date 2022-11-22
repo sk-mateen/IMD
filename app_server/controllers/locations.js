@@ -6,6 +6,10 @@ const homelist = (req, res) => {
     const locationInfo = (req, res) => {
     res.render('location-info', { title: 'Location info' });
     };
+
+    const grand=(req,res)=>{
+        res.render('grand',{title:'grand'});
+    };
     /* GET 'Add review' page */
     const addReview = (req, res) => {
     res.render('location-review-form', { title: 'Add review' });
