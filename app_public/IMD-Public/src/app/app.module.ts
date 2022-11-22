@@ -2,11 +2,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
 import { HomeListComponent } from './home-list/home-list.component';
+
 @NgModule({
   declarations: [
-    AppComponent,
     HomeListComponent
   ],
   imports: [
@@ -14,6 +13,6 @@ import { HomeListComponent } from './home-list/home-list.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [HomeListComponent]
 })
-export class AppModule { }
+export class AppModule { }

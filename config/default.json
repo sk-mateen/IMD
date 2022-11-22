@@ -1,0 +1,10 @@
+{
+ 
+    "food": {
+      "review": {
+        "host": "localhost",
+        "port": 5984,
+        "dbName": "mongodb+srv://Mateen:Mateen2003@cluster0.jbv6zny.mongodb.net/?retryWrites=true&w=majority"
+      }
+    }
+  }
